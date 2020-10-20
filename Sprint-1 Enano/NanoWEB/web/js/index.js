@@ -5,6 +5,7 @@ import {compile, printOut} from "./compiler.js"
 
 
 window.onload = function(){
+	document.getElementById("openModal").style.visibility = 'hidden';
 	document.getElementById("about").onclick = getMembers;
 	document.getElementById("run").onclick = compile;
 	document.getElementById("reset-out").onclick = function (){	
